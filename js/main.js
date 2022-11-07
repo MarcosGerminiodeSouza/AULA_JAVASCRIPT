@@ -1,3 +1,4 @@
+/*
 function btn(){
     // alert("Obrigado!");
     document.getElementById("obg").innerHTML = ("<b>Obrigado por clikar</b>");
@@ -27,6 +28,8 @@ function load(){
 function funcaoChange(elemento){
     console.log(elemento.value);
 }
+*/
+
 /*
 var validar;
 function validaIdade(idade){
@@ -46,15 +49,17 @@ function soma (n1, n2) {
     return n1 + n2;
 }
 
+console.log(soma(5, 10));
+*/
+
 
 function setReplace(frase, nome, novo_nome){
     return frase.replace(nome, novo_nome)
 }
 
+console.log(setReplace("Vai Japão","Japão","Brasil"));
 
-alert(soma(5, 10));
-alert(setReplace("Vai Japão","Japão","Brasil"));
-*/
+
 /*
 var  d = new Date();
 alert(d);
